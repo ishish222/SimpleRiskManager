@@ -3,7 +3,7 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <authenticator :social-providers="['google']">
     <template v-slot="{ user, signOut }">
-      <h1>Hello {{ user.username }}!</h1>
+      <h1>Helloo {{ user.username }}!</h1>
       <button @click="signOut">Sign Out</button>
     </template>
   </authenticator>
