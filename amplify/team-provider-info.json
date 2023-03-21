@@ -10,6 +10,11 @@
       "StackName": "amplify-simpleriskmanager4-prod-203227",
       "StackId": "arn:aws:cloudformation:eu-central-1:242532629527:stack/amplify-simpleriskmanager4-prod-203227/1e9de8c0-c81f-11ed-9617-0aaaf5995570",
       "AmplifyAppId": "d78deuxfycp9j"
+    },
+    "categories": {
+      "auth": {
+        "simpleriskmanager46006104d": {}
+      }
     }
   }
 }
