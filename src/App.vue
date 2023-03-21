@@ -1,3 +1,13 @@
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+import { Authenticator } from '@aws-amplify/ui-vue'
+import { Amplify } from 'aws-amplify';
+import awsconfig from './aws-exports';
+
+Amplify.configure(awsconfig);
+
+</script>
+
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
@@ -9,22 +19,6 @@
   </authenticator>
 
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-import { Authenticator } from '@aws-amplify/ui-vue'
-import { Amplify } from 'aws-amplify';
-import awsconfig from './aws-exports';
-
-Amplify.configure(awsconfig);
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style>
 #app {
