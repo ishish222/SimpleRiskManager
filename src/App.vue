@@ -17,9 +17,16 @@
 <template>
   <authenticator :social-providers="['google']">
     <template v-slot="{ user, signOut }">
+        <center>
       <h1>Helloo {{ user.username }}!</h1>
+        <br>
+        <br>
+        <br>
+        This is accessible after login
+        <br>
       <button @click="signOut">Sign Out</button>
+        </center>
     </template>
   </authenticator>
-
+This is accessible without a login
 </template>
