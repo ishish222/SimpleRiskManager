@@ -1,5 +1,7 @@
 # simple-risk-manager-4
 
+This is a primer for a Vue application with account management relying on external Identity Providers via Cognito functionality.
+
 ## Project setup
 ```
 npm install
